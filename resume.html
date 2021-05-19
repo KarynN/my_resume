@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8" />
+	<meta author='Karyn Nakamura'>
+	<title>MY RESUME</title>
+	<meta name="viewport" content="initial-scale=1" /> 
+	<script src="https://d3js.org/d3.v5.min.js"></script>
+	<script src='https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js'></script>
+    <link rel="image_src" href="./img/pink.png"/>
+	<meta property="og:image" content = "./img/pink.png" />
+	<link rel="icon" href="./img/pink.png">
+	<style type="text/css">
+
+body, html {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  display: flex;
+}
+
+.container {
+  margin: auto;
+}
+
+.button {
+  cursor: pointer;
+  margin-left: 5px;
+  margin-bottom: 15px;
+  text-shadow: 0 -2px 0 #808181, 0 1px 1px #dddddd;
+  box-sizing: border-box;
+  font-size: 2em;
+  font-family: Helvetica, Arial, Sans-Serif;
+  text-decoration: none;
+  font-weight: bold;
+  color: #a3a3a3;
+  height: 65px;
+  line-height: 65px;
+  padding: 0 32.5px;
+  display: inline-block;
+  width: auto;
+  background: linear-gradient(to bottom, #e3e4e3 0%, #d1d1d1 26%, #b8b8b8 100%);
+  border-radius: 5px;
+  border-top: 1px solid #dddddd;
+  border-bottom: 1px solid #dbdbdb;
+  top: 0;
+  transition: all 0.06s ease-out;
+  position: relative;
+}
+.button:visited {
+  color: #a0a0a0;
+}
+
+.button:hover {
+  background: linear-gradient(to bottom, #edeeee 0%, #e0e0e0 26%, #c2c2c2 100%);
+}
+
+.button:active {
+  top: 6px;
+  text-shadow: 0 -2px 0 #b9bbba, 0 1px 1px #dedfde, 0 0 4px white;
+  color: white;
+}
+.button:active:before {
+  top: 0;
+  box-shadow: 0 3px 3px rgba(0, 0, 0, 0.7), 0 3px 9px rgba(0, 0, 0, 0.2);
+}
+
+.button:before {
+  display: inline-block;
+  content: "";
+  position: absolute;
+  left: 0;
+  right: 0;
+  z-index: -1;
+  top: 6px;
+  border-radius: 5px;
+  height: 65px;
+  background: linear-gradient(to top, #424242 0%, #5b5c5b 6px);
+  transition: all 0.078s ease-out;
+  box-shadow: 0 1px 0 2px rgba(0, 0, 0, 0.3), 0 5px 2.4px rgba(0, 0, 0, 0.5), 0 10.8px 9px rgba(0, 0, 0, 0.2);
+}
+
+#text{
+    position: fixed;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+#text2{
+    position: fixed;
+  top: 60%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+
+
+
+ 	</style>
+</head>
+
+<body>
+
+    <div id = "text">My resume (for business and defense recruiters ONLY)</div>
+
+    <div class="container">
+        <a class="button" href="https://www.dropbox.com/s/penqqg6eu3syooe/karyn_resume_2021_may.pdf?dl=1">Download</a>
+    </div>
+    <div id = "text2">(It may take a minute to open.)</div>
+
+<script type="text/javascript">
+
+
+var winWidth = window.innerWidth *0.94;
+var winHeight = window.innerHeight*0.95;
+
+
+
+</script>
+</body>
+</html>
